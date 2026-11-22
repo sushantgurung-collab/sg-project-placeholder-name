@@ -1,0 +1,1502 @@
+[
+  {
+    "sample_id": 1,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can…",
+    "word_count": 18,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 2,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 3,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.",
+    "word_count": 7,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 4,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow…",
+    "word_count": 21,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 5,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava…",
+    "word_count": 16,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 6,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 7,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 8,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 9,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 10,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 11,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 12,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can…",
+    "word_count": 18,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 13,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 14,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.",
+    "word_count": 7,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 15,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow…",
+    "word_count": 21,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 16,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava…",
+    "word_count": 16,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 17,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 18,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 19,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 20,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 21,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 22,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 23,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can…",
+    "word_count": 18,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 24,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 25,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.",
+    "word_count": 7,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 26,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow…",
+    "word_count": 21,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 27,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava…",
+    "word_count": 16,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 28,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 29,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 30,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 31,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 32,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 33,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 34,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can…",
+    "word_count": 18,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 35,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 36,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.",
+    "word_count": 7,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 37,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow…",
+    "word_count": 21,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 38,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava…",
+    "word_count": 16,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 39,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 40,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 41,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 42,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 43,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to",
+    "word_count": 12,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 44,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application",
+    "word_count": 11,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 45,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can…",
+    "word_count": 18,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 46,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 47,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang.",
+    "word_count": 7,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 48,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow…",
+    "word_count": 21,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 49,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava…",
+    "word_count": 16,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 50,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled…",
+    "word_count": 19,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 51,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 52,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 53,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 54,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 55,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 56,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 108,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 57,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 58,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang. Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 97,
+    "context_density": "short",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 59,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 111,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 60,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 106,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 61,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 62,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 63,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 64,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 65,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 66,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 67,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 108,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 68,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 69,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang. Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 97,
+    "context_density": "short",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 70,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 111,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 71,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 106,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 72,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 73,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 74,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 75,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 76,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 77,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 78,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 108,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 79,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 80,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang. Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 97,
+    "context_density": "short",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 81,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 111,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 82,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 106,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 83,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 84,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 85,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 86,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 87,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 88,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 89,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 108,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 90,
+    "cve_id": "DHI-p4sm-46n2-xeb5-t7fl",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-p4sm-46n2-xeb5-t7fl</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-p4sm-46n2-xeb5-t7fl\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 91,
+    "cve_id": "DHI-wo3p-vqke-6dvu-o3xf",
+    "description": "Uncontrolled Recursion vulnerability in Apache Commons Lang. Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 97,
+    "context_density": "short",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-wo3p-vqke-6dvu-o3xf</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-wo3p-vqke-6dvu-o3xf\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 92,
+    "cve_id": "DHI-mjrc-ispa-lsj7-45nr",
+    "description": "By sending a deeply nested ASN1 structure to a Apache Kerby client or service, it's possible to trigger a StackOverFlow… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 111,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-mjrc-ispa-lsj7-45nr</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-mjrc-ispa-lsj7-45nr\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 93,
+    "cve_id": "DHI-7eqi-6zhj-6irb-iw7z",
+    "description": "Allocation of resources without limits or throttling (CWE-770) during Java object deserialization in Google Guava… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 106,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7eqi-6zhj-6irb-iw7z</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7eqi-6zhj-6irb-iw7z\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 94,
+    "cve_id": "DHI-aiqf-ubkx-67jn-gmn7",
+    "description": "In the GNU C Library (aka glibc or libc6) through 2.29, check_dst_limits_calc_pos_1 in posix/regexec.c has Uncontrolled… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 109,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-aiqf-ubkx-67jn-gmn7</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-aiqf-ubkx-67jn-gmn7\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 95,
+    "cve_id": "DHI-qljb-a2gn-5owv-sauc",
+    "description": "libcurl would reuse a previously created connection even when some mTLS config Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-qljb-a2gn-5owv-sauc</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-qljb-a2gn-5owv-sauc\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 96,
+    "cve_id": "DHI-o4th-okmz-7ylt-r5tw",
+    "description": "Successfully using libcurl to do a transfer to a specific HTTP origin Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "PR.AC-6",
+      "affected_asset": "Authentication Module",
+      "mitigation": "Apply vendor patch immediately."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-o4th-okmz-7ylt-r5tw</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Authentication Module</affected_asset>\n  <nist_control>PR.AC-6</nist_control>\n  <mitigation>Apply vendor patch immediately.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-o4th-okmz-7ylt-r5tw\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Authentication Module</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.AC-6\" />\n  </compliance>\n  <remediation>\n    <action>Apply vendor patch immediately.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 97,
+    "cve_id": "DHI-knwi-2lty-kw7w-qzc3",
+    "description": "When a user invokes curl using a schemeless URL combined with Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "CRITICAL",
+      "nist_control": "DE.CM-1",
+      "affected_asset": "Network Daemon",
+      "mitigation": "Implement input validation and bounds checking."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-knwi-2lty-kw7w-qzc3</cve_id>\n  <severity>CRITICAL</severity>\n  <affected_asset>Network Daemon</affected_asset>\n  <nist_control>DE.CM-1</nist_control>\n  <mitigation>Implement input validation and bounds checking.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-knwi-2lty-kw7w-qzc3\">\n  <vulnerability severity=\"CRITICAL\">\n    <affected_asset>Network Daemon</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"DE.CM-1\" />\n  </compliance>\n  <remediation>\n    <action>Implement input validation and bounds checking.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 98,
+    "cve_id": "DHI-7as2-yhuf-amen-xm4j",
+    "description": "libcurl might in some circumstances reuse the wrong connection when asked to Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 102,
+    "context_density": "long",
+    "metadata": {
+      "severity": "HIGH",
+      "nist_control": "PR.DS-5",
+      "affected_asset": "User Profile API",
+      "mitigation": "Restrict access permissions using least privilege."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-7as2-yhuf-amen-xm4j</cve_id>\n  <severity>HIGH</severity>\n  <affected_asset>User Profile API</affected_asset>\n  <nist_control>PR.DS-5</nist_control>\n  <mitigation>Restrict access permissions using least privilege.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-7as2-yhuf-amen-xm4j\">\n  <vulnerability severity=\"HIGH\">\n    <affected_asset>User Profile API</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.DS-5\" />\n  </compliance>\n  <remediation>\n    <action>Restrict access permissions using least privilege.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 99,
+    "cve_id": "DHI-4tg7-qfh3-i2ov-czco",
+    "description": "A use-after-free vulnerability exists in libcurl when an application Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 101,
+    "context_density": "long",
+    "metadata": {
+      "severity": "MEDIUM",
+      "nist_control": "PR.IP-1",
+      "affected_asset": "Container Engine",
+      "mitigation": "Update system dependencies to non-vulnerable versions."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-4tg7-qfh3-i2ov-czco</cve_id>\n  <severity>MEDIUM</severity>\n  <affected_asset>Container Engine</affected_asset>\n  <nist_control>PR.IP-1</nist_control>\n  <mitigation>Update system dependencies to non-vulnerable versions.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-4tg7-qfh3-i2ov-czco\">\n  <vulnerability severity=\"MEDIUM\">\n    <affected_asset>Container Engine</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"PR.IP-1\" />\n  </compliance>\n  <remediation>\n    <action>Update system dependencies to non-vulnerable versions.</action>\n  </remediation>\n</advisory>"
+  },
+  {
+    "sample_id": 100,
+    "cve_id": "DHI-i5dv-3oll-cluw-7iib",
+    "description": "compress provides various compression algorithms. Prior to 1.20.2, the zstd DecodeAll and streaming decoder paths can… Extended Technical Analysis and Advisory Context: The identified vulnerability presents a critical security exposure due to insufficient input sanitisation within the core application request pipeline. Remote unauthenticated attackers can construct crafted payloads to manipulate memory state or inject unauthorised database commands. Threat intelligence telemetry indicates widespread automated scanning targeting unpatched endpoints across enterprise networks. Immediate remediation requires applying official vendor updates, deploying web application firewall (WAF) inspection rules, enforcing strict least-privilege access controls, and enabling continuous automated audit logging across all production container clusters and API gateway infrastructure nodes.",
+    "word_count": 108,
+    "context_density": "long",
+    "metadata": {
+      "severity": "LOW",
+      "nist_control": "RS.CO-2",
+      "affected_asset": "Database System",
+      "mitigation": "Enforce strict API authentication headers."
+    },
+    "ground_truth_flat_xml": "<advisory>\n  <cve_id>DHI-i5dv-3oll-cluw-7iib</cve_id>\n  <severity>LOW</severity>\n  <affected_asset>Database System</affected_asset>\n  <nist_control>RS.CO-2</nist_control>\n  <mitigation>Enforce strict API authentication headers.</mitigation>\n</advisory>",
+    "ground_truth_nested_xml": "<advisory id=\"DHI-i5dv-3oll-cluw-7iib\">\n  <vulnerability severity=\"LOW\">\n    <affected_asset>Database System</affected_asset>\n  </vulnerability>\n  <compliance>\n    <nist_control id=\"RS.CO-2\" />\n  </compliance>\n  <remediation>\n    <action>Enforce strict API authentication headers.</action>\n  </remediation>\n</advisory>"
+  }
+]
