@@ -1,10 +1,5 @@
 # Comparative Evaluation of Prompt Engineering Strategies for Automated Parsing of Cybersecurity Vulnerabilities into Standardised GRC XML Schemas
 
-**Student Name:**   
-**Registration Number:**   
-**Module:**
-**Instructor:**   
-
 ## Overview
 This project investigates the capability of lightweight local Large Language Models (LLMs) to perform structured information extraction from unstructured cybersecurity vulnerability descriptions without modifying model parameters. Specifically, it benchmarks prompt engineering techniques for transforming Common Vulnerabilities and Exposures (CVE) text into standardised Governance, Risk, and Compliance (GRC) XML schemas.
 
