@@ -1,0 +1,32 @@
+# Python environments & cache
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# VS Code & IDE settings
+.vscode/
+.idea/
+*.swp
+
+# Hugging Face & Model Caches
+.cache/
+huggingface/
+
+# LaTeX compilation build files
+report-source/*.aux
+report-source/*.log
+report-source/*.out
+report-source/*.toc
+report-source/*.fls
+report-source/*.fdb_latexmk
+report-source/*.synctex.gz
+report-source/*.bbl
+report-source/*.blg
+
+# System files
+.DS_Store
+Thumbs.db
